@@ -1,12 +1,9 @@
 // write code for Welcome component here
-import Welcome from './Welcome';
-
-const App = () => {
+const Welcome = (props) => {
   return (
     <div>
-      <Welcome name="Sambit Kumar Das" />
+      <h1>Hey {props.name}!</h1>
+      <h2>Welcome to Newton School.</h2>
     </div>
   );
 };
-
-export default App;
