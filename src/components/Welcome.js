@@ -1,4 +1,6 @@
 // write code for Welcome component here
+import React from 'react';
+
 const Welcome = (props) => {
   return (
     <div>
@@ -7,3 +9,5 @@ const Welcome = (props) => {
     </div>
   );
 };
+
+export default Welcome;
